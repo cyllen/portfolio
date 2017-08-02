@@ -12,24 +12,25 @@ h1 h2 h3 h4 h5 {
   font-family: 'Bitter', sans-serif;
   font-size: 2em;
 }
+.float-center {
+	float: center;
+}
 form {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
 }
 .icon {
 	background-color: transparent;
-  color: #000;
 }
 li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
 .space {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 /********Carousel**************/
-
 .item {
   height: 525px;
   background-size: cover;
@@ -38,7 +39,6 @@ li {
 #logo {
   height: 200px;
 }
-
 .carousel-caption {
   margin-bottom: 45px;
 }
@@ -60,25 +60,27 @@ li {
  /********Nav Bar*********/
 
 nav {
-  padding-top: 10px;
-  background-color: #33cccc;
-  height: 50px;
+  background-color: #ffff00;
+  height: 10%;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: rgba(0,0,255,0.3);
+}
+.navbar-inverse .navbar-nav>active>a:focus .navbar-nav>li>a:focus .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(0,0,255,0.5);
 }
 
-nav a {
-  color: #003333;
-}
 /********Info***********/
 
 #info {
   height: 100%;
 }
 
-/*********about sec***********/
+/*********Jumbotron***********/
 
 #store {
-  background-color: #ff00ff;
-  height: 500px;
+  background-color: rgb(0, 204, 255);
+  height: 100%;
   background-size: cover;
   font-size: 1em;
   padding: 40px
@@ -88,7 +90,7 @@ nav a {
 
 #store {
   height: 500px;
-  background-color: #00e6b8;
+  background-color: #00ffff;
   background-size: cover;
 }
 
@@ -96,15 +98,15 @@ nav a {
 
 #contact {
   padding: 40px;
-  background-color: #ff00ff;
+  background-color: #009900;
 }
 #contact form {
   height: 360px;
-  background-color: #00e6b8;
+  background-color: #4dff4d;
   margin: 10px;
   border-style: groove;
   border-width: 3px;
-  border-color: #fff;
+  border-color: #4dff4d;
 }
 footer h1 {
   text-shadow: 1px 2px 2px #fff;
@@ -114,5 +116,5 @@ footer h1 {
 }
 .iconbar {
   padding: 40px;
-  background-color: #33cccc;
+  background-color: #ffff00;
 }

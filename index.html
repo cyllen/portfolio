@@ -5,48 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Raul Rivera - Web Developer</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" media="(max-width: 640px)" href="css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 640px)" href="css/style.css">
 </head>
-<body>
-  <nav class="flex">
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+<!--Nav-->
+  <nav class="container-fluid">
     <div class="row">
       <div class="col-sm-3">
-        <ul class="nav nav-pills">
-          <li role="presentation" class="active"><a href="#">Home</a></li>
-          <li role="presentation"><a href="#">About</a></li>
-          <li role="presentation"><a href="#">Buy</a></li>
-          <li role="presentation"><a href="#">Contact</a></li>
+        <ul class="nav nav-pills icon bitter" id="bs-example-navbar-collapse-1">
+          <li role="presentation"><a href="#home">Home</a></li>
+          <li role="presentation"><a href="#about">About</a></li>
+          <li role="presentation"><a href="#store">Store</a></li>
+          <li role="presentation"><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="col-sm-3 col-sm-offset-5">
         <a href="https://github.com/cyllen" target="_blank" class="social-media">
-          <i class="fa fa-github fa-3x icon"></i>
+          <i class="fa fa-github fa-4x icon"></i>
         </a>
         <a href="http://instagram.com/raul2d2" target="_blank" class="social-media">
-          <i class="fa fa-3x fa-camera-retro icon"></i>
+          <i class="fa fa-4x fa-camera-retro icon"></i>
         </a>
         <a href="http://twitter.com/raul2d2" target="_blank" class="social-media">
-          <i class="fa fa-3x fa-twitter icon"></i>
+          <i class="fa fa-4x fa-twitter icon"></i>
         </a>
         <a href="mailto:arrivalrue@gmail.com" class="social-media">
-          <i class="fa fa-3x fa-envelope-open-o icon"></i>
+          <i class="fa fa-4x fa-envelope-open-o icon"></i>
         </a>
       </div>
     </div>
   </nav>
-
-
-<section class="conatiner-fluid" id="jumbotron">
-    <div class="jumbotron-style">
-      <h1 class="space">Welcome to your number one source for board game materials!</h1>
-      <p class="bitter">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="bitter">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatibus architecto reprehenderit, animi repudiandae. Voluptas tenetur officiis placeat necessitatibus quas fugiat consequuntur culpa cumque inventore repellendus, illum provident commodi assumenda?</p>
+<!--Carosel-->
+<div class="container-fluid" id="home">
+  <div id="home">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" id="background"><!--slide1 begins-->
+            <h3>Buy now!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ratione magni, alias accusantium ut.</p>
+            <button class="btn btn-lg btn-warning">Learn More</button>
+        </div><!--wood ends-->
+        <div class="item" id="background2"><!--slide2 begins-->
+          <div class="carousel-caption">
+            <h3>Buy now!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ratione magni, alias accusantium ut, esse, saepe exercitationem magnam maxime impedit autem recusandae eligendi, minus illum. Impedit odit exercitationem dolorum quia!</p>
+            <button class="btn btn-lg btn-warning">Learn More</button>
+          </div>
+        </div><!--slide2 ends-->
+        <div class="item" id="background3"><!--slide3 begins-->
+          <div class="carousel-caption">
+            <h3>...When you need</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ratione magni, alias accusantium ut, esse, saepe exercitationem magnam maxime impedit autem recusandae eligendi, minus illum. Impedit odit exercitationem dolorum quia!</p>
+            <button class="btn btn-lg btn-warning">Browse Gallery</button>
+          </div>
+        </div><!--slide3 begins-->
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      </div>
     </div>
-  </section>
+  </div>
+</div>
+
+<div class="container" id="about">
+    <div class="row">
+      <h1 class="space">Learn about the many ways of using these products!</h1>
+      <p class="bitter space">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-lg-12 space">
+        <div class="col-sm-6 space">
+          <img src="img/glance-girl.png" class="img-responsive">
+        </div>
+        <div class="col-sm-6">
+                <p class="bitter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatibus architecto reprehenderit, animi repudiandae. Voluptas tenetur officiis placeat necessitatibus quas fugiat consequuntur culpa cumque inventore repellendus, illum provident commodi assumenda?</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="store">
+  <div class="row">
+    <img src="img/logo-01.png" alt="logo" class="img-responsive center-block" id="carousel-logo">
+  </div> 
+</div>
+<!--Footer-->  
 <footer>
   <div class="container-fluid" id="contact">
     <div class="row">
@@ -104,6 +167,7 @@
         </div>
       </div>
 </footer>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
