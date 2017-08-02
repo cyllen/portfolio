@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Raul Rivera - Web Developer</title>
+      <title>Raul Rivera - Web Developer - Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" media="(max-width: 640px)" href="css/mobile.css">
+    <link rel="stylesheet" media="(max-width: 640px)" href="css/style.css">
     <link rel="stylesheet" media="(min-width: 640px)" href="css/style.css">
 </head>
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
@@ -18,12 +18,12 @@
       <div class="col-sm-3">
         <ul class="nav nav-pills icon bitter" id="bs-example-navbar-collapse-1">
           <li role="presentation"><a href="#home">Home</a></li>
-          <li role="presentation"><a href="#about">About</a></li>
-          <li role="presentation"><a href="#store">Store</a></li>
+          <li role="presentation"><a href="#about">About Me</a></li>
+          <li role="presentation"><a href="#price">Prices</a></li>
           <li role="presentation"><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="col-sm-3 col-sm-offset-5">
+      <div class="col-sm-3 col-sm-offset-3">
         <a href="https://github.com/cyllen" target="_blank" class="social-media">
           <i class="fa fa-github fa-4x icon"></i>
         </a>
@@ -52,22 +52,20 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active" id="background"><!--slide1 begins-->
-            <h3>Buy now!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ratione magni, alias accusantium ut.</p>
-            <button class="btn btn-lg btn-warning">Learn More</button>
-        </div><!--wood ends-->
+          <img src="img/logo-01.png" alt="logo" class="img-responsive center-block" id="carousel-logo">
+        </div>
         <div class="item" id="background2"><!--slide2 begins-->
           <div class="carousel-caption">
-            <h3>Buy now!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ratione magni, alias accusantium ut, esse, saepe exercitationem magnam maxime impedit autem recusandae eligendi, minus illum. Impedit odit exercitationem dolorum quia!</p>
-            <button class="btn btn-lg btn-warning">Learn More</button>
+            <h3>Is your Website mobile ready?</h3>
+            <p>My mobile first approach ensures that all traffic via mobile devices is optimized.</p>
+            <a class="btn btn-lg btn-warning" href="/petstore.html">Learn More</a>
           </div>
         </div><!--slide2 ends-->
         <div class="item" id="background3"><!--slide3 begins-->
           <div class="carousel-caption">
-            <h3>...When you need</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ratione magni, alias accusantium ut, esse, saepe exercitationem magnam maxime impedit autem recusandae eligendi, minus illum. Impedit odit exercitationem dolorum quia!</p>
-            <button class="btn btn-lg btn-warning">Browse Gallery</button>
+            <h3>Affordability</h3>
+            <p>Why pay more for a website? I can provide various prices and plans to suit your company's needs.</p>
+            <a class="btn btn-lg btn-warning" href="/rest.html">Browse</a>
           </div>
         </div><!--slide3 begins-->
       <!-- Controls -->
@@ -84,32 +82,39 @@
   </div>
 </div>
 
-<div class="container" id="about">
-    <div class="row">
-      <h1 class="space">Learn about the many ways of using these products!</h1>
-      <p class="bitter space">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="col-lg-12 space">
-        <div class="col-sm-6 space">
+<div class="container-fluid" id="about">
+  <h1 class="space">Welcome to my Portfolio Website!</h1>
+  <h3 class="bitter center">  here's a little bit about me: </h3>
+      <div class="row">
+      <div class="col-lg-12">
+        <div class="col-sm-6">
           <img src="img/glance-girl.png" class="img-responsive">
+          <p class="bitter"></p>
         </div>
         <div class="col-sm-6">
-                <p class="bitter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatibus architecto reprehenderit, animi repudiandae. Voluptas tenetur officiis placeat necessitatibus quas fugiat consequuntur culpa cumque inventore repellendus, illum provident commodi assumenda?</p>
+          <p class="bitter"></p>
         </div>
       </div>
-    </div>
+      </div>
 </div>
 
-<div class="container-fluid" id="store">
+<div class="container-fluid" id="price">
   <div class="row">
-    <img src="img/logo-01.png" alt="logo" class="img-responsive center-block" id="carousel-logo">
-  </div> 
+    <div class="col-sm-3 col-sm-offset-1">
+
+    </div>
+    <div class="col-sm-6 col-sm-offset-3">
+      <h1 class="bitter"> Get more for your dollar</h1>
+      <p class="bitter"> I offer different plans to suit your company needs. Here are some to name a few:</p>
+      <ul>
+        <li>WordPress Website</li>
+        <li>Custom Logos and Website</li>
+        <li>Website and Photographs of Products</li>
+      </ul>
+    </div>
+  </div>
 </div>
-<!--Footer-->  
+<!--Footer-->
 <footer>
   <div class="container-fluid" id="contact">
     <div class="row">

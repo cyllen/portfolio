@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+/*Universal Overrides*/
+a, a:hover {
+  text-decoration: none;
+}
+/*Header Styles*/
+.logo-img {
+  height: 70px;
+}
+.logo-text {
+  font-family: 'Satisfy', cursive;
+  color: #f2767e;/*orangey pink highlight*/
+}
+/*jumbotron stuff*/
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+.hero-text {
+  color: #fff;
+  font-weight: 400;
+}
+.thumbnail {
+  background-color: #EDF1F4;
+  font-size: 16px;
+}
+.product-img {
+  padding: 0px 7.5px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.logo-wrapper {
+  width: 50%;
+}
+/*Footer Styles*/
+footer {
+  height: 200px;
+  background-color: #333;
+  padding-top: 14px;
+}
+footer>a, footer a:hover {
+  color: #BFC0C1;
+}
+footer img.logo-img {
+  width: 90px;
+}
+.address-border {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+address {
+  color: #BFC0C1;
+}
+address>a {
+  color: #BFC0C1;
+}
+address>a:hover {
+  color:#BFC0C1;
+}
+.dis-block {
+  display: block;
+  color:#BFC0C1;
+}
+.cp {
+  color: #505050;
+}

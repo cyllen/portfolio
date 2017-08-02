@@ -51,10 +51,10 @@ li {
   background-image: url('../img/ipgsycot_elearning-board-games.png');
 }
 #background2 {
-  background-image: url('../img/ipgsycot_elearning-board-games.png');
+  background-image: url('../img/background2.png');
 }
 #background3 {
-  background-image: url('../img/ipgsycot_elearning-board-games.png');
+  background-image: url('../img/background3.png');
 }
 
  /********Nav Bar*********/
@@ -76,7 +76,7 @@ nav a {
 
 /*********about sec***********/
 
-#store {
+#about {
   background-color: #ff00ff;
   height: 500px;
   background-size: cover;
@@ -86,7 +86,7 @@ nav a {
 
 /**********Store*********/
 
-#store {
+#price {
   height: 500px;
   background-color: #00e6b8;
   background-size: cover;
