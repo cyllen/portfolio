@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@media (min-width: 500px) and (orientation: landscape);
+@media (min-width: 500px) and (orientation: portrait);
 /*Universals*/
+.img-responsive {
+  background-image: url('#')
+}
 p {
     font-family: 'Bitter', serif;
     font-size: 1em;
