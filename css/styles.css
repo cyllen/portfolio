@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Lobster');
+/*Universals*/
+body {
+  position: relative;
+}
+/*header styles*/
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-inverse, .navbar-nav>li>a {
+  color:#fff;
+  text-shadow: 1px 1px 2px #333;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: rgba(51, 51, 51, .25);
+}
+.navbar-inverse .navbar-nav>active>a:focus .navbar-nav>li>a:focus .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(51, 51, 51, .5);
+}
+/*carousel styles*/
+
+#wood-background {
+  /*display: flex;
+  align-items: center;*/
+  background-image: url('../img/wood-2.jpg')
+}
+.item {
+  height: 525px;
+  background-size: cover;
+  background-position: center;
+}
+#carousel-logo {
+  height: 250px;
+}
+.carousel-flex {
+  height: 425px; /*or 100%;*/
+  display: flex;
+  align-items: center;
+}
+#seating-background {
+  background-image: url('../img/restaurant-2.jpg')
+}
+h3 {
+  text-shadow: 1px 1px 2px #333;
+}
+button.btn-warning {
+  background-color: #f8512f;
+  border-color: #f8512f;
+}
+button.btn-warning:hover {
+  background-color: #D34326;
+  border-color: #D34326;
+}
+#farm-background {
+    background-image: url('../img/farm-2.jpg')
+}
+.carousel-caption {
+  margin-bottom: 45px;
+}
+/*OUR STORY STYLES*/
+.rocklobster {
+  font-family: 'Lobster', cursive;
+}
+.year-text {
+  font-size: 12em;
+  z-index: 0;
+  color: rgba(51, 51, 51, .1);
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  position: absolute;
+}
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+#our-story .rocklobster{
+  font-size: 5em;
+  color: #F8512F;
+  text-shadow: 1px 1px 2px #313;
+}
+#our-story h3 {
+  margin-top: 0px;
+}
+#our-story {
+  margin: 10% auto;
+}
+/*Review styles*/
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  height: 450px;
+}
+.fresno-bee {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.fresno-bee h1 {
+  font-family: 'Lobster', cursive;
+  color: #F8512F;
+  text-shadow: 1px 1px 1px #333;
+}
+.fresno-bee h3 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  text-shadow: 1px 1px 1px #333;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+/*Menu styles*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  height: 600px;
+}
+#menu h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+.food {
+  background-color: #fff;
+  height: 425px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+.nav-tabs.nav-justified>.active>a:hover, #menu a {
+  color: #F8512F;
+  text-transform: uppercase;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+  color: #F8512F;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.2)
+}
+.nav-tabs.nav-justified>li>a {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*Contact Us page*/
+#contact h1{
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+  color: #fff;
+  padding-top: 50px;
+}
+#contact {
+  background-color: #F8512F;
+}
+#contact p {
+  padding-bottom: 30px;
+  font-family: 'Lato', cursive;
+  color: #fff;
+}
+#contact-form form {
+  height: 400px;
+  border-color: #fff;
+  border: 5px;
+  background-color: #ff6600;
+}
+.contact-form label {
+  color: #fff;
+}
