@@ -38,9 +38,13 @@ li {
   background-position: center;
 }
 #logo {
-  height: 200px;
+  height: 100px;
 }
-
+.carousel-flex {
+    height: 425px;
+    display: flex;
+    align-items: center;
+}
 .carousel-caption {
   margin-bottom: 45px;
 }
