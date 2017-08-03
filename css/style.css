@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@media (min-width: 500px) and (orientation: landscape);
 /*Universals*/
 p {
     font-family: 'Bitter', serif;
@@ -87,6 +86,9 @@ nav a {
   padding: 40px
 }
 #about h3 {
+  text-shadow: 1px 2px 2px #fff;
+}
+#about h1 {
   text-shadow: 1px 2px 2px #fff;
 }
 /**********Store*********/

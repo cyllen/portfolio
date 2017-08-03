@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@media (min-width: 500px) and (orientation: portrait);
+
 /*Universals*/
-.img-responsive {
-  background-image: url('#')
-}
+
 p {
     font-family: 'Bitter', serif;
     font-size: 1em;
@@ -29,7 +27,7 @@ li {
     text-align: -webkit-match-parent;
 }
 .space {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 /********Carousel**************/
@@ -37,7 +35,7 @@ li {
   height: 100%
 }
 .item {
-  height: 525px;
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -46,21 +44,24 @@ li {
 }
 
 .carousel-caption {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 .item {
-  height: 525px;
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
 #background {
+  height: 100%;
   background-image: url('../img/ipgsycot_elearning-board-games.png');
 }
 #background2 {
   background-image: url('../img/background2.png');
+  height: 100%;
 }
 #background3 {
   background-image: url('../img/background3.png');
+  height: 100%;
 }
 
  /********Nav Bar*********/
@@ -73,6 +74,18 @@ nav {
 
 nav a {
   color: #003333;
+}
+.fa-github:before {
+  content: "";
+}
+.fa-camera-retro:before {
+  content: "";
+}
+.fa-twitter:before {
+  content: "";
+}
+.fa-envelope-open-o:before {
+    content: "";
 }
 /********Info***********/
 
@@ -92,6 +105,9 @@ nav a {
 #about h3 {
   text-shadow: 1px 2px 2px #fff;
 }
+#about h1 {
+  text-shadow: 1px 2px 2px #fff;
+}
 /**********Store*********/
 
 #price {
@@ -106,7 +122,7 @@ nav a {
 /********Footer**********/
 
 #contact {
-  padding: 40px;
+  padding: 20px;
   background-color: #ff00ff;
 }
 #contact form {
