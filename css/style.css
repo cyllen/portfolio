@@ -4,6 +4,7 @@
 p {
     font-family: 'Bitter', serif;
     font-size: 1em;
+    padding-top: 10px;
 }
 h1 h2 h3 h4 h5 {
       font-family: 'Roboto Slab', serif;
@@ -99,7 +100,7 @@ nav a {
   background-color: #ff00ff;
 }
 #contact form {
-  height: 360px;
+  height: 90%;
   background-color: #00e6b8;
   margin: 10px;
   border-style: groove;
