@@ -35,12 +35,14 @@ li {
   height: 100%
 }
 .item {
-  height: 0px;
+  height: 50px;
   background-size: cover;
   background-position: center;
 }
-#logo {
-  height: 50px;
+.logo {
+  height: 0px;
+  width: 0px;
+  align-items: none;
 }
 
 .carousel-caption {

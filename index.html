@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Raul Rivera - Web Developer - Portfolio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,8 +12,8 @@
 </head>
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 <!--Nav-->
-<nav class="container-fluid">
-  <div class="row">
+<nav class="navbar">
+  <div>
     <div class="col-sm-6">
       <ul class="nav nav-pills icon bitter " id="bs-example-navbar-collapse-1">
         <li role="presentation"><a href="#home">Home</a></li>
@@ -41,8 +40,7 @@
 </nav>
 
 <!--Carousel-->
-<div class="container" id="home">
-  <div>
+<div id="home">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -52,38 +50,37 @@
       </ol>
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
+              <!--slide1 begins-->
         <div class="item active" id="background">
-      <!--slide1 begins-->
-        <div class="carousel-flex">
-          <img src="img/logo-01.png" alt="logo" class="img-responsive center-block" id="carousel-logo logo">
+          <img src="img/logo-01.png" class="logo" id="carousel-logo">
+            <div class="carousel-caption">
+              <p>Why pay more for a website? I can provide various prices and plans to suit your company's needs.</p>
+              <a class="btn btn-lg btn-warning" href="rest.html">Browse</a>
+            </div>
         </div>
         <div class="item" id="background2"><!--slide2 begins-->
           <div class="carousel-caption">
             <p>Is your Website mobile ready? My mobile first approach ensures that all traffic via mobile devices is optimized.</p>
-            <a class="btn btn-lg btn-warning" href="../petstore.html">Learn More</a>
+            <a class="btn btn-lg btn-warning" href="petstore.html">Learn More</a>
           </div>
         </div>
       <!--slide2 ends-->
-        <div class="item" id="background3"></div>
-      <!--slide3 begins-->
-          <div class="carousel-caption">
-            <p>Why pay more for a website? I can provide various prices and plans to suit your company's needs.</p>
-            <a class="btn btn-lg btn-warning" href="../rest.html">Browse</a>
-          </div>
-      <!--slide3 begins-->
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      </div>
+      <!--slide3 begins no -->
+        <div class="item" id="background3">
+        </div>
+        <!--slide3 begins-->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
     </div>
   </div>
-</div>
 </div>
 <!--Carousel Ends-->
 
@@ -91,14 +88,14 @@
   <h1 class="space">Welcome to my Portfolio Website!</h1>
       <div class="row">
         <div class="space">
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <h3>Here's a tidbit about me:</h3>
             <p>I am a Fresno native with a life-long interest in all things web. I started my Web Designing in High School
               learning the basics with Photoshop and HTML in the days of dial-up.</p>
               <p>Nowadays, I'm still spending time improving my coding and design skills. I'm currently enrolled at Bitwise
               where I am honing my Web Design skills and expanding my network.</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-4">
             <img src="img/mr-grin.png" class="img-responsive">
           </div>
         </div>
@@ -107,9 +104,9 @@
 
 <div class="container-fluid space" id="price">
   <div class="row">
-    <div class="col-sm-6 col-sm-offset-1 space">
+    <div class="col-md-6 col-sm-offset-1 space">
       <h1> Get more for your dollar</h1>
-      <p class="bitter"> I offer different plans to suit your company needs. Here are some to name a few:</p>
+      <p class="bitter">I offer different plans to suit your company needs. Here are some to name a few:</p>
       <ul>
         <li>WordPress Website</li>
         <li>Custom Logos</li>
@@ -117,7 +114,7 @@
         <li>Online Store for your products</li>
       </ul>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <img src="img/glance-girl.png" class="img-responsive">
     </div>
   </div>
@@ -138,7 +135,7 @@
 <footer>
   <div class="container-fluid" id="contact">
     <div class="row">
-      <div class="col-sm-3 col-sm-offset-1" >
+      <div class="col-sm-4 col-sm-offset-1" >
         <h1 class="bitter">Contact Me!</h1>
         <form class="contact-form" id="emailForm" method="POST">
             <div class="form-group">
@@ -172,7 +169,7 @@
   </div>
       <div class="container-fluid text-center iconbar">
           <div class="row">
-            <div class="col-sm-3 col-sm-offset-4">
+            <div class="col-sm-4 col-sm-offset-4">
               <a href="https://github.com/cyllen" target="_blank" class="social-media">
                 <i class="fa fa-github fa-5x icon"></i>
               </a>
@@ -192,9 +189,9 @@
       </div>
 </footer>
 <script src="js/jquery-3.2.1.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/bootstrap.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+
+</body>
 </html>
