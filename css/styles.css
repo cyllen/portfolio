@@ -162,7 +162,9 @@ button.btn-warning:hover {
   color: #fff;
 }
 #contact-form form {
-  height: 400px;
+  height: 100%;
+  border-style: groove;
+  border-width: 3px;
   border-color: #fff;
   border: 5px;
   background-color: #ff6600;
