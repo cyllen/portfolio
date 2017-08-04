@@ -32,10 +32,6 @@ body {
 }
 #carousel-logo {
   height: 250px;
-}
-.carousel-flex {
-  height: 425px; /*or 100%;*/
-  display: flex;
   align-items: center;
 }
 #seating-background {

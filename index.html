@@ -12,8 +12,8 @@
 </head>
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 <!--Nav-->
-<nav class="navbar">
-  <div>
+<nav class="navbar navbar-static-top">
+  <div class="container-fluid">
     <div class="col-sm-6">
       <ul class="nav nav-pills icon bitter " id="bs-example-navbar-collapse-1">
         <li role="presentation"><a href="#home">Home</a></li>
@@ -52,11 +52,9 @@
       <div class="carousel-inner" role="listbox">
               <!--slide1 begins-->
         <div class="item active" id="background">
-          <img src="img/logo-01.png" class="logo" id="carousel-logo">
-            <div class="carousel-caption">
-              <p>Why pay more for a website? I can provide various prices and plans to suit your company's needs.</p>
-              <a class="btn btn-lg btn-warning" href="rest.html">Browse</a>
-            </div>
+          <div class="carousel-caption">
+            <img src="img/logo-01.png" class="center-block logo"  id="carousel-logo">
+          </div>
         </div>
         <div class="item" id="background2"><!--slide2 begins-->
           <div class="carousel-caption">
@@ -67,6 +65,10 @@
       <!--slide2 ends-->
       <!--slide3 begins no -->
         <div class="item" id="background3">
+          <div class="carousel-caption">
+            <p>Why pay more for a website? I can provide various prices and plans to suit your company's needs.</p>
+            <a class="btn btn-lg btn-warning" href="rest.html">Browse</a>
+          </div>
         </div>
         <!--slide3 begins-->
         <!-- Controls -->
@@ -169,7 +171,7 @@
   </div>
       <div class="container-fluid iconbar">
           <div class="row">
-            <div class="col-sm-4 col-sm-offset-2">
+            <div class="col-sm-4 col-sm-offset-4">
               <a href="https://github.com/cyllen" target="_blank" class="social-media">
                 <i class="fa fa-github fa-5x icon"></i>
               </a>
