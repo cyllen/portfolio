@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 /*Universals*/
+
 p {
     font-family: 'Bitter', serif;
     font-size: 1em;
@@ -25,59 +27,85 @@ li {
     text-align: -webkit-match-parent;
 }
 .space {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 /********Carousel**************/
 #home {
-  height: 110%
-  width: 110%;
-  background-size: cover;
+  height: 100%
 }
 .item {
-  height: 500px;
+  height: 50px;
   background-size: cover;
   background-position: center;
 }
 .logo {
-  height: 250px;
-  align-items: center;
+  height: 0px;
+  width: 0px;
+  align-items: none;
 }
+
 .carousel-caption {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
+}
+.carousel-flex {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 .item {
-  height: 525px;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
 }
 #background {
+  height: 200px;
+  width: 100%
   background-image: url('../img/ipgsycot_elearning-board-games.png');
 }
 #background2 {
   background-image: url('../img/background2.png');
+  height: 200px;
+  width: 100%
 }
 #background3 {
   background-image: url('../img/background3.png');
+  height: 200px;
+  width: 100%
 }
 
  /********Nav Bar*********/
 
-nav {
+nav .navbar {
   padding-top: 10px;
-  background-color: #33cccc;
+  background-color: #ffad99;
+  height: 110%;
 }
 
 nav a {
   color: #003333;
 }
-nav .navbar {
-  height: 110%;
+.fa-github:before {
+  content: "";
 }
+.fa-camera-retro:before {
+  content: "";
+}
+.fa-twitter:before {
+  content: "";
+}
+.fa-envelope-open-o:before {
+    content: "";
+}
+/********Info***********/
+
+#info {
+  height: 100%;
+}
+
 /*********about sec***********/
 
 #about {
-  background-color: #ff00ff;
+  background-color: #ccff99;
   height: 100%;
   background-size: cover;
   font-size: 1em;
@@ -93,7 +121,7 @@ nav .navbar {
 
 #price {
   height: 100%;
-  background-color: #00e6b8;
+  background-color: #ffff4d;
   background-size: cover;
 }
 #price h1 {
@@ -103,12 +131,13 @@ nav .navbar {
 /********Footer**********/
 
 #contact {
-  padding: 40px;
-  background-color: #ff00ff;
+  padding: 20px;
+  background-color: #ccff99;
 }
 #contact form {
   height: 90%;
-  background-color: #00e6b8;
+  width: 100%;
+  background-color: #ffff4d;
   margin: 10px;
   border-style: groove;
   border-width: 3px;
@@ -118,10 +147,13 @@ footer h1 {
   text-shadow: 1px 2px 2px #fff;
 }
 #contact iframe {
-  padding-top: 50px;
+  padding-top: 10px;
+  height: 350px;
+  width: 350px;
+  float: center;
 }
 .iconbar {
-  padding: 40px;
   height: 200px;
-  background-color: #33cccc;
+  padding: 10px;
+  background-color: #00cc00;
 }
