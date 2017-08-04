@@ -22,7 +22,6 @@ form {
 }
 li {
     display: list-item;
-    text-align: -webkit-match-parent;
 }
 .space {
   padding-top: 30px;
@@ -63,16 +62,9 @@ li {
 
  /********Nav Bar*********/
 
-nav {
-  padding-top: 10px;
-  background-color: #33cccc;
-}
-
-nav a {
-  color: #003333;
-}
 nav .navbar {
-  height: 110%;
+  height: 100%;
+  color: #00e6b8;
 }
 /*********about sec***********/
 

@@ -40,8 +40,6 @@ li {
   background-position: center;
 }
 .logo {
-  height: 0px;
-  width: 0px;
   align-items: none;
 }
 
@@ -59,41 +57,37 @@ li {
 }
 #background {
   height: 200px;
-  width: 100%
+  width: 100%;
   background-image: url('../img/ipgsycot_elearning-board-games.png');
 }
 #background2 {
   background-image: url('../img/background2.png');
   height: 200px;
-  width: 100%
+  width: 100%;
 }
 #background3 {
   background-image: url('../img/background3.png');
   height: 200px;
-  width: 100%
+  width: 100%;
 }
 
  /********Nav Bar*********/
 
 nav .navbar {
   padding-top: 10px;
-  background-color: #ffad99;
+  background-color: #00cc00;
   height: 110%;
 }
-
-nav a {
-  color: #003333;
-}
-.fa-github:before {
+nav .fa-github:before {
   content: "";
 }
-.fa-camera-retro:before {
+nav .fa-camera-retro:before {
   content: "";
 }
-.fa-twitter:before {
+nav .fa-twitter:before {
   content: "";
 }
-.fa-envelope-open-o:before {
+nav .fa-envelope-open-o:before {
     content: "";
 }
 /********Info***********/
